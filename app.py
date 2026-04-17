@@ -80,3 +80,6 @@ def update_chart(selected_region):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+app = Dash(__name__)
+server = app.server
